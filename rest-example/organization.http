@@ -1,0 +1,17 @@
+GET {{base-url}}/organization?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/organization/7710474375?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/organization/7710474375/dataset?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###

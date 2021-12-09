@@ -1,0 +1,5 @@
+GET {{base-url}}/topic?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###

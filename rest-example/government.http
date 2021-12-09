@@ -1,10 +1,40 @@
-GET {{base-url}}?access_token={{token}}
+GET {{base-url}}/dataset?access_token={{token}}
 Content-Type: application/json
 Accept: application/json
 
 ###
 
-GET {{base-url}}?topic=Economics&access_token={{token}}
+GET {{base-url}}/dataset?access_token={{token}}&topic=Economics
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/dataset/3525151968-protection/?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/dataset/3525151968-protection/version?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/dataset/3525151968-protection/version/20180201T163431/?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/dataset/3525151968-protection/version/20210401T142548/structure?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}/dataset/3525151968-protection/version/20210401T142548/content?access_token={{token}}
 Content-Type: application/json
 Accept: application/json
 
