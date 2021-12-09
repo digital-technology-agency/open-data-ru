@@ -1,0 +1,11 @@
+GET {{base-url}}?access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
+
+GET {{base-url}}?topic=Economics&access_token={{token}}
+Content-Type: application/json
+Accept: application/json
+
+###
